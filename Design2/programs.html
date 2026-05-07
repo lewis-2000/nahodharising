@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programs | Nahodha Rising</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="../assets/logo.jpeg" alt="Nahodha Rising Logo" />
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="programs.html">Programs</a>
+        <a href="get-involved.html" class="nav-cta">Get Involved</a>
+      </div>
+    </nav>
+
+    <section class="hero hero-programs">
+      <div class="hero-content">
+        <h1>Our Programs</h1>
+        <p>
+          Detailed information about our mentorship, leadership, and faith-based
+          programs coming soon.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMING SOON BANNER -->
+    <section class="coming-soon">
+      <div class="coming-soon-banner">
+        <h2>Coming Soon</h2>
+        <p>
+          We're working on bringing you comprehensive details about all our
+          programs, schedules, and enrollment information.
+        </p>
+        <p>
+          In the meantime, reach out to learn more about how you can get
+          involved.
+        </p>
+        <a href="get-involved.html" class="cta-primary">Get Involved Today</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <p>
+            Nahodha Rising — Building disciplined, faithful, responsible young
+            people, mostly for boys.
+          </p>
+          <p>&copy; 2026 Nahodha Rising</p>
+        </div>
+
+        <div class="footer-contact">
+          <p><strong>Get In Touch</strong></p>
+          <a href="mailto:info@nahodharising.org" class="contact-link"
+            >info@nahodharising.org</a
+          >
+          <p style="margin-top: 1rem"><strong>Support Our Work</strong></p>
+          <a href="mailto:donate@nahodharising.org" class="donate-link"
+            >donate@nahodharising.org</a
+          >
+        </div>
+
+        <div class="footer-social">
+          <p><strong>Follow Us</strong></p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook" class="social-icon">f</a>
+            <a href="#" aria-label="Twitter" class="social-icon">𝕏</a>
+            <a href="#" aria-label="Instagram" class="social-icon">📷</a>
+            <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        const links = navLinks.querySelectorAll("a");
+
+        toggle.addEventListener("click", () => {
+          toggle.classList.toggle("active");
+          navLinks.classList.toggle("open");
+        });
+
+        links.forEach((link) => {
+          link.addEventListener("click", () => {
+            toggle.classList.remove("active");
+            navLinks.classList.remove("open");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
