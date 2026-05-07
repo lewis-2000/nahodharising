@@ -216,25 +216,25 @@ nav {
 }
 
 .hero-home {
-  background-image: url("./assets/medium-shot-smiley-boy-outdoors-no-edit.jpg");
+  background-image: url("../assets/medium-shot-smiley-boy-outdoors-no-edit.jpg");
 }
 
 .hero-about {
-  background-image: url("./assets/boys-playing-football.jpg");
+  background-image: url("../assets/boys-playing-football.jpg");
 }
 
 .hero-news {
   min-height: 340px;
-  background-image: url("./assets/I.webp");
+  background-image: url("../assets/I.webp");
 }
 
 .hero-get-involved {
-  background-image: url("./assets/2149479929.jpg");
+  background-image: url("../assets/2149479929.jpg");
 }
 
 .hero-programs {
   min-height: 340px;
-  background-image: url("./assets/I.webp");
+  background-image: url("../assets/I.webp");
 }
 
 .hero-actions {
