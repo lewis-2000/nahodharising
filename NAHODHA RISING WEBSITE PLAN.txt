@@ -1,0 +1,386 @@
+NAHODHA RISING WEBSITE PLAN
+===========================
+
+PROJECT DESCRIPTION
+-------------------
+Nahodha Rising is a Christian mentorship and leadership organization focused on guiding boys and young men in Kenya toward responsible adulthood through faith, mentorship, discipline, brotherhood, education, and community support.
+
+The organization exists to address the growing neglect of boys in society, helping them avoid destructive paths such as alcoholism, hopelessness, violence, poor mentorship, and lack of direction. The goal is to help boys become productive, spiritually grounded, responsible men who positively impact their families, churches, and communities.
+
+The website should feel:
+- Modern
+- Hopeful
+- Masculine but welcoming
+- African and authentic
+- Community-driven
+- Spiritually grounded
+- Professional and trustworthy
+
+The website should NOT feel:
+- Politically divisive
+- Anti-girl
+- Outdated
+- Overly corporate
+- Depressing
+- Like a generic church website
+
+
+PRIMARY WEBSITE GOALS
+---------------------
+- Clearly explain the mission of Nahodha Rising
+- Build trust and credibility
+- Showcase mentorship programs and impact
+- Allow frequent posting of updates and blog posts
+- Encourage volunteering and partnerships
+- Make communication easy
+- Build a strong modern identity for the organization
+
+
+TARGET AUDIENCE
+---------------
+- Boys and young men
+- Parents and guardians
+- Church leaders
+- Mentors and volunteers
+- Donors and sponsors
+- Community supporters
+
+
+TECH STACK
+----------
+Backend/CMS:
+- WordPress
+
+Frontend:
+- Start with static HTML and CSS first
+- Custom minimal WordPress theme
+- TailwindCSS
+- Gutenberg editor
+
+Purpose:
+- Easy for non-technical church staff
+- Drag-and-drop editing
+- Long-term maintainability
+- Full design control
+- Better performance than bloated themes/builders
+
+
+VISUAL DESIGN DIRECTION
+-----------------------
+Style:
+- Modern
+- Strong
+- Clean
+- Spacious
+- Purpose-driven
+
+Color Palette:
+- Deep Navy (#0F172A)
+- Forest Green (#14532D)
+- Warm Gold (#D4A017)
+- Warm White (#F8F6F2)
+
+Typography:
+Headings:
+- Montserrat
+- Poppins
+- Outfit
+
+Body:
+- Inter
+- Nunito Sans
+
+Image Style:
+- Authentic Kenyan/African photography
+- Mentorship
+- Brotherhood
+- Prayer
+- Leadership
+- Sports
+- Skill development
+- Community activities
+
+Avoid:
+- Fake stock imagery
+- Pity-focused imagery
+- Militaristic masculinity
+- Overly corporate visuals
+
+
+WEBSITE PAGES
+=============
+
+1. HOME PAGE
+-------------
+Sections:
+- Hero section
+- Mission statement
+- Problem statement
+- Programs overview
+- Impact statistics
+- Testimonials
+- Latest posts/events
+- Call to action
+
+Goal:
+- Immediately communicate the mission
+- Inspire trust and involvement
+
+
+2. ABOUT PAGE
+--------------
+Content:
+- Organization story
+- Vision and mission
+- Leadership/team
+- Church foundation
+- Core values
+- Long-term goals
+
+
+3. PROGRAMS PAGE
+-----------------
+Content:
+- Mentorship programs
+- Leadership training
+- Bible studies
+- Skills workshops
+- Counseling
+- Sports/community outreach
+- Camps and seminars
+
+
+4. IMPACT PAGE
+---------------
+Content:
+- Testimonials
+- Success stories
+- Statistics
+- Community impact
+- Outreach results
+- Photo galleries
+
+
+5. BLOG / RESOURCES PAGE
+-------------------------
+Purpose:
+- Publish regular content
+- Keep the website active
+
+Suggested Categories:
+- Mentorship
+- Devotionals
+- Events
+- Testimonies
+- Leadership
+- Community Outreach
+- Skills Development
+
+
+6. EVENTS PAGE
+---------------
+Content:
+- Camps
+- Conferences
+- Workshops
+- Outreach events
+- Mentorship meetups
+
+
+7. GET INVOLVED PAGE
+---------------------
+Content:
+- Volunteer opportunities
+- Partnership information
+- Donations
+- Mentor applications
+- Church collaborations
+
+
+8. CONTACT PAGE
+----------------
+Content:
+- Contact form
+- Phone numbers
+- Email
+- Social media
+- Church/organization location
+
+
+DEVELOPMENT TASKS
+=================
+
+1. INITIAL SETUP
+----------------
+- Set up local WordPress environment
+- Configure database
+- Initialize Git repository
+- Configure TailwindCSS
+- Create theme directory
+
+
+2. CREATE CUSTOM WORDPRESS THEME
+--------------------------------
+Create:
+- style.css
+- functions.php
+- index.php
+- page.php
+- single.php
+- archive.php
+- header.php
+- footer.php
+
+Configure:
+- Menus
+- Featured images
+- Asset loading
+- Theme supports
+
+
+3. BUILD GLOBAL LAYOUT SYSTEM
+-----------------------------
+Create:
+- Responsive navbar
+- Footer
+- Mobile navigation
+- Typography system
+- Buttons
+- Cards
+- Containers
+- Form styles
+- Section spacing system
+
+
+4. CREATE RESPONSIVE DESIGN
+---------------------------
+Optimize for:
+- Phones
+- Tablets
+- Desktop
+
+Focus:
+- Fast loading
+- Readability
+- Large touch targets
+- Mobile-first experience
+
+
+5. CREATE GUTENBERG BLOCK PATTERNS
+----------------------------------
+Reusable editable sections:
+- Hero sections
+- CTA sections
+- Testimonial sections
+- Event cards
+- Program cards
+- Statistics sections
+- Gallery sections
+
+
+6. RESTRICT EDITOR FOR SAFETY
+-----------------------------
+- Lock important layouts
+- Limit typography options
+- Limit colors
+- Prevent accidental layout damage
+
+
+7. BUILD BLOG SYSTEM
+--------------------
+Create:
+- Post templates
+- Category pages
+- Archive pages
+- Search functionality
+- Featured image system
+
+
+8. BUILD EVENTS SYSTEM
+----------------------
+Features:
+- Upcoming events
+- Event cards
+- Event details pages
+- Registration/contact info
+
+
+9. PERFORMANCE OPTIMIZATION
+----------------------------
+- Compress images
+- Enable caching
+- Minify assets
+- Reduce plugin usage
+- Optimize mobile performance
+
+
+10. SEO SETUP
+-------------
+- Meta titles/descriptions
+- Sitemap
+- SEO-friendly URLs
+- Open Graph support
+- Proper heading structure
+
+
+11. SECURITY & BACKUPS
+----------------------
+- Security plugin
+- Backup system
+- Spam protection
+- Update policy
+
+
+12. STAFF TRAINING
+------------------
+Teach church staff:
+- Creating posts
+- Editing pages
+- Uploading images
+- Using block patterns
+- Managing events
+- Compressing images
+
+
+13. DEPLOYMENT
+--------------
+- Configure hosting
+- Configure domain
+- Enable SSL
+- Configure backups
+- Configure contact forms
+
+
+CONTENT STRATEGY
+================
+Posting Frequency:
+- Approximately 5 posts per week
+
+Content Types:
+- Mentorship stories
+- Devotionals
+- Community outreach
+- Events
+- Leadership lessons
+- Testimonials
+- Skills development
+- Youth encouragement
+
+Goal:
+- Keep the community engaged
+- Build trust
+- Improve visibility
+- Document impact over time
+
+
+IMPORTANT DESIGN PRINCIPLES
+===========================
+- Keep the layout clean and spacious
+- Avoid clutter
+- Focus on readability
+- Maintain consistent branding
+- Use authentic imagery
+- Prioritize mobile users
+- Keep plugins minimal
+- Design for long-term maintainability
+- Make editing simple for non-technical users

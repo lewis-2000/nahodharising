@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News — Nahodha Rising</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <img src="./assets/logo.jpeg" alt="Nahodha Rising Logo" />
+      </div>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="get-involved.html" class="nav-cta">Get Involved</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>News & Updates</h1>
+        <p>
+          Latest stories, announcements, and impact updates from Nahodha Rising.
+        </p>
+        <div class="hero-actions">
+          <a href="get-involved.html" class="cta-primary">Get Involved</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS LIST -->
+    <section class="blog">
+      <div class="section-header">
+        <h2>Latest News</h2>
+        <p>Stories from the field, program updates, and upcoming events.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-media">
+            <img
+              src="./assets/medium-shot-smiley-boy-outdoors-no-edit.jpg"
+              alt="Workshop"
+            />
+          </div>
+          <h3>Mentorship workshop reaches 60 boys</h3>
+          <p class="muted">May 1, 2026 · Field report</p>
+          <p>
+            Our weekend training brought mentors and boys together for practical
+            life skills and faith formation.
+          </p>
+          <p><a href="#">Read more</a></p>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="./assets/2149479929.jpg" alt="Community outreach" />
+          </div>
+          <h3>Community outreach: building trust</h3>
+          <p class="muted">April 18, 2026 · Outreach</p>
+          <p>
+            Our outreach teams visited three communities to recruit mentors and
+            identify boys in need of support.
+          </p>
+          <p><a href="#">Read more</a></p>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="./assets/I.webp" alt="Leadership training" />
+          </div>
+          <h3>Leadership training for young men</h3>
+          <p class="muted">March 30, 2026 · Programs</p>
+          <p>
+            Graduates from our leadership cohort demonstrate stronger
+            decision-making and community service involvement.
+          </p>
+          <p><a href="#">Read more</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div>
+          <p><strong>Nahodha Rising</strong></p>
+          <p>
+            Raising boys into responsible men through mentorship, faith, and
+            community.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <p><strong>Get In Touch</strong></p>
+          <a href="mailto:info@nahodharising.org" class="contact-link"
+            >info@nahodharising.org</a
+          >
+          <p style="margin-top: 1rem"><strong>Support Our Work</strong></p>
+          <a href="mailto:donate@nahodharising.org" class="donate-link"
+            >donate@nahodharising.org</a
+          >
+        </div>
+
+        <div class="footer-social">
+          <p><strong>Follow Us</strong></p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook" class="social-icon">f</a>
+            <a href="#" aria-label="Twitter" class="social-icon">𝕏</a>
+            <a href="#" aria-label="Instagram" class="social-icon">📷</a>
+            <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        const links = navLinks.querySelectorAll("a");
+
+        toggle.addEventListener("click", () => {
+          toggle.classList.toggle("active");
+          navLinks.classList.toggle("open");
+        });
+
+        links.forEach((link) => {
+          link.addEventListener("click", () => {
+            toggle.classList.remove("active");
+            navLinks.classList.remove("open");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
