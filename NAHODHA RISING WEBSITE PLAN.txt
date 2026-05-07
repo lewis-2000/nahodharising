@@ -3,9 +3,9 @@ NAHODHA RISING WEBSITE PLAN
 
 PROJECT DESCRIPTION
 -------------------
-Nahodha Rising is a Christian mentorship and leadership organization focused on guiding boys and young men in Kenya toward responsible adulthood through faith, mentorship, discipline, brotherhood, education, and community support.
+Nahodha Rising is a Christian mentorship and leadership organization focused on guiding young people in Kenya, with our work mostly focused on boys, toward responsible adulthood through faith, mentorship, discipline, education, and community support.
 
-The organization exists to address the growing neglect of boys in society, helping them avoid destructive paths such as alcoholism, hopelessness, violence, poor mentorship, and lack of direction. The goal is to help boys become productive, spiritually grounded, responsible men who positively impact their families, churches, and communities.
+The organization exists to address the growing neglect of boys and other vulnerable youth in society, helping them avoid destructive paths such as alcoholism, hopelessness, violence, poor mentorship, and lack of direction. The goal is to help young people—mostly boys—become productive, spiritually grounded, responsible adults who positively impact their families, churches, and communities.
 
 The website should feel:
 - Modern
@@ -93,7 +93,6 @@ Body:
 Image Style:
 - Authentic Kenyan/African photography
 - Mentorship
-- Brotherhood
 - Prayer
 - Leadership
 - Sports
